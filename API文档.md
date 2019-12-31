@@ -1,7 +1,8 @@
 # API说明
 使用rpc风格（详细请求/响应内容在表格以下）：
+
 | api                            | method | description                        |
-| ------------------------------ | ------ | ---------------------------------- |
+| ------------------------------ | ------ | ----------------------------------|
 | /api                           | GET    | 获得所有支持API                    |
 | /usersv/getUserInfo            | POST   | 通过用户名获取相应用户信息         |
 | /blogsv/getBlogListByUID       | POST   | 通过用户id获取相应博客列表         |
@@ -9,6 +10,7 @@
 | /blogsv/getBlogListByTagAndUID | POST   | 通过标签id和用户id获取相应博客列表 |
 | /commentsv/getCommentListByBID | POST   | 通过标签id和用户id获取相应博客列表 |
 | /tagsv/getTagsByUID            | POST   | 通过用户id获取标签列表             |
+
 
 具体请求/响应内容：
 
